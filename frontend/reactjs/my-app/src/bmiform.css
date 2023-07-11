@@ -14,7 +14,7 @@ label {
 input[type="text"],
 input[type="number"] {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 button[type="submit"] {
@@ -22,6 +22,7 @@ button[type="submit"] {
   padding: 0.5rem 1rem;
 }
 
-.results {
+.result {
   margin-top: 2rem;
+  padding: 0.5rem 1rem;
 }
