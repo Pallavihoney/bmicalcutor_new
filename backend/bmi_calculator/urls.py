@@ -25,5 +25,6 @@ router.register(r'bmi', BMIViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path ('api/',BMIViewSet.as_viewset(), name="something"),
 
 ]
