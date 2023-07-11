@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+button[type="submit"] {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.results {
+  margin-top: 2rem;
+}
